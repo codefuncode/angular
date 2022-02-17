@@ -9,6 +9,6 @@ export class AppComponent {
 
   title = 'app';
   nombre = 'Carlos Aleman';
-  saludo = 'Hola ';
+  saludo = 'Hola';
 
 }
