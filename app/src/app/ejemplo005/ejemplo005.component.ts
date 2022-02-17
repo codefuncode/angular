@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
 })
 export class Ejemplo005 {
 
-  title = 'Ejemplo005';
-  nombre = 'Carlos Aleman';
-  saludo = 'Hola Ejemplo005';
+  title1 = 'Ejemplo005';
+  nombre1 = 'Carlos Aleman';
+  saludo1 = 'Hola Ejemplo005';
 
 }
