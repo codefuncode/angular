@@ -1,1 +1,44 @@
 Descripción de la ubicación y propósito de los ficheros y directorios.
+
+
+
+Directorio clave para el despliegue es src/
+
+Fichero index.html es el punto de ejecución
+
+////////////////////////////////////////////////////////////
+
+./app/src/app/app.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root', // El selector sirve para definir componente lo cual es declarado en la raíz: {./app/src/index.html}
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'app';
+}
+////////////////////////////////////////////////////////////
+
+
+./app/src/index.html
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>App</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+	// Aquí es donde se define el nombre del  componente  que se selecciona en {./app/src/app/app.component.ts}
+  <app-root></app-root>
+
+</body>
+</html>
+////////////////////////////////////////////////////////////
