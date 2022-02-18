@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Ejemplo } from './ejemplo/ejemplo.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,Ejemplo
+    AppComponent
   ],
   imports: [
     BrowserModule,
